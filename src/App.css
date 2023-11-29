@@ -1,0 +1,135 @@
+
+
+body {
+  background-color: white;
+  padding: 0; margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #333;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  color: #333;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  outline: none;
+}
+
+.app {
+  background-color: #DDD;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .contact-list {
+    background-color: lightseagreen;
+    width: 20%;
+    overflow: auto;
+  }
+
+  .title {
+    padding: 12px; margin: 0;
+    padding-bottom: 0;
+    font-size: 150%;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0; padding: 12px;
+  }
+
+  li {
+    margin: 12px / 1.5 0;
+    padding: 12px / 1.5 12px;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease-out;
+  }
+
+  li.active, li:hover {
+    background-color: lighten(#3498db, 40%);;
+    color: #333;
+    border-radius: 6px;
+  }
+  
+  .messages {
+    margin: 12px;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    background-image: url('./img/bg.jpg');
+  }
+
+.messages-history {
+  overflow: auto;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.message {
+  width: 100%;
+  padding: 12px;
+  padding-top: 0;
+}
+
+.message:last-child {
+  padding-top: 12px;
+}
+
+.message.me {
+  text-align: left;
+}
+  
+.message-body {
+    color: white;
+    background-color: #333;
+}
+
+.message-body {
+  background-color: #DDD;
+  color: #333;
+  font-weight: 400;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 70%;
+  min-width: 75px;
+  line-height: 20px;
+  text-align: initial;
+}
+
+.messages-inputs {
+  display: flex;
+}
+
+input[type="text"],input[type="password"],input[type="email"] {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 12px;
+  resize: vertical; 
+  flex: 1 1 auto;
+  border-radius: 10px;
+}
+
+button {
+  padding: 0 12px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

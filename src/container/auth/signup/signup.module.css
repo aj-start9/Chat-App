@@ -1,0 +1,56 @@
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.card{
+    width: 30rem;
+    height: 40rem;
+    box-shadow: 1px 1px 1px  #D8D8D8;
+    border: 1px solid #D8D8D8;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.login_text{
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.label_custom{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+    margin-left: 15%;
+}
+.custom_input,.custom_input:active{
+    height: 3rem;
+    width:20rem;
+    /* font-size: 1.4rem; */
+    margin: auto;
+}
+.btn_div{
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.input_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.google_login{
+    margin-top: 1rem;
+    text-align: center;
+}

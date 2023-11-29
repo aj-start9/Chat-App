@@ -1,0 +1,60 @@
+.list{
+    margin-left: 9%;
+}
+
+.main{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.main:hover{
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
+.logout{
+    margin-top: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.account_info{
+    margin-left: 4%;
+    margin-top: 20%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    background-color: white;
+}
+
+.user_sub{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
